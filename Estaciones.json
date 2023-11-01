@@ -1,0 +1,117 @@
+{ 
+    "5":{
+        "punto": "Diner Unicentro",
+        "ip": "172.19.61.17",
+        "oficina":1318
+    },
+    "1":{
+        "punto": "Steak 716",
+        "ip": "172.19.25.73",
+        "oficina":1820
+    },
+    "2":{
+        "punto": "La Mar",
+        "ip": "172.19.85.121",
+        "oficina":1855
+    },
+    "3":{
+        "punto": "Pravda",
+        "ip": "172.19.101.101",
+        "oficina":1345
+    },
+    "4":{
+        "punto": "Watakushi 82",
+        "ip": "172.19.111.17",
+        "oficina":1331
+    },
+    "6":{
+        "punto":"Michelle Unicentro",
+        "ip":"172.19.76.19",
+        "oficina":1335
+    },
+    "7":{
+        "punto": "Amarti Usaquen",
+        "ip": "172.19.31.17",
+        "oficina":1810
+    },
+    "8":{
+        "punto": "Barra Unicentro",
+        "ip": "172.19.120.148",
+        "oficina":1891
+    },
+    "9":{
+        "punto": "Barra 109",
+        "ip": "172.19.36.17",
+        "oficina":1870
+    },
+    "10":{
+        "punto": "Barra 82",
+        "ip": "172.19.101.91",
+        "oficina":1865
+    },
+    "11":{
+        "punto": "Illy 87",
+        "ip": "172.19.71.21",
+        "oficina":1325
+    },
+    "12":{
+        "punto": "Illy Unicentro",
+        "ip": "172.19.76.50",
+        "oficina":1320      
+    },
+    "13":{
+        "punto": "Watakushi Unicentro",
+        "ip": "172.19.121.20",
+        "oficina":1399
+    },
+    "14":{
+        "punto": "Koi",
+        "ip":"172.19.81.82",
+        "oficina":1329
+    },
+    "15":{
+        "punto": "Luna",
+        "ip": "172.19.101.121",
+        "oficina":1330
+    },
+    "16":{
+        "punto": "Michelle 82",
+        "ip": "172.19.101.140",
+        "oficina":1890
+    },
+    "17":{
+        "punto": "Pomeriggio",
+        "ip": "172.19.66.17",
+        "oficina":1805
+    },
+    "18":{
+        "punto": "Dapo 82",
+        "ip": "172.19.101.139",
+        "oficina":1305
+    },
+    "19":{
+        "punto": "Dapo Colina",
+        "ip": "172.19.51.14",
+        "oficina":1395
+    },
+    "20":{
+        "punto": "Dapo Usaquen",
+        "ip": "172.19.25.140",
+        "oficina":1885
+    },
+    "21":{
+        "punto": "Michelle Colina",
+        "ip": "190.145.201.22",
+        "oficina":1398
+    },
+    "22":{
+        "punto": "Watakushi 93",
+        "ip": "190.147.51.6",
+        "oficina":1385
+    },
+    "23":{
+        "punto": "Diner Santafe",
+        "ip": "181.57.147.142",
+        "oficina":1332
+    }
+}
