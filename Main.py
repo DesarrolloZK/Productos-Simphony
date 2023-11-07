@@ -8,13 +8,11 @@ class Control():
         self.__Estaciones=Archivos.traerEstaciones()
         self.__logica=Logica(config=self.__config)
 
-    def crearArchivos(self,ip,punto)->None:
-        self.__logica.filtrar(ip)
+    def crearArchivo(self)->None:
+        self.__logica.filtrar(self.__Estaciones)
         cabeceras=['Codigo','Nombre','Precio','# Definicion','Jer Master','Jer Definicion','Jer Precio','Estructura ID','Zona','Punto','RVC','Obj Number']
         productos=self.__logica.getDataRestaurantes()
-        Archivos().makeExcel('Productos.xlsx',punto,cabeceras,productos)
-    
-    def iniciar(self)->None: list(map(lambda x:self.crearArchivos(x["ip"],f'{x["punto"]}-{x["oficina"]}'),self.__Estaciones.values()))
+        Archivos().makeExcel('Productos.xlsx','Todos',cabeceras,productos)
 
 if __name__=="__main__":
-    Control().iniciar()
+    Control().crearArchivo()
